@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranked Vote</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-5 my-2" href="#">
+                <img src="/image/logo.jpg" class="logo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="dropdown">
+                        <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init
+                            class="nav-link dropdown-toggle bg-transparent text-dark border-end" type="button"
+                            id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
+                            Solutions
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li class="dropdown-item RankedText fw-medium">WHY RANKEDVOTE ?</li>
+                            <li><a class="dropdown-item nav-link mx-4 w-25" href="#">Run Contest</a></li>
+                            <li><a class="dropdown-item nav-link mx-4 w-25" href="#">Make Decisions</a></li>
+                            <li><a class="dropdown-item nav-link mx-4 w-25" href="#">Educate Voters</a></li>
+                            <li><a class="dropdown-item nav-link mx-4 w-25" href="#">Team Collaboration</a></li>
+                            <li><a class="dropdown-item nav-link mx-4 w-25" href="#">Bulk Programs</a></li>
+                        </ul>
+                    </div>
+                    <a class="nav-link mx-3" href="#">Demo</a>
+                    <a class="nav-link mx-3" href="#">Stories</a>
+                    <a class="nav-link mx-3" href="#">Guides</a>
+                    <a class="nav-link mx-3" href="#">Pricing</a>
+                    <a class="nav-link mx-3" href="#">Log In</a>
+                    <button type="button" class="btn sign_up rounded-pill px-4">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero ">
+
+        <div class="left ">
+            <h5>ONLINE RANKED CHOICE VOTING APP</h5>
+            <h2 class="">The ranked choice platform for <span id="typed"></span></h2>
+            <p>Uncover your group's preferences. Get instant results. All with greater accuracy and fidelity than
+                traditional voting methods.</p>
+            <button type="button" class="">GET STARTED</button>
+        </div>
+        <div class="right text-center">
+            <img src="/image/votePage.jpg" alt="Moving Image" class="moving-image">
+        </div>
+
+    </section>
+
+
+    <!--Trusted Organizarions-->
+    <section id="org" class="brands">
+        <h5>TRUSTED BY TOP ORGANIZATIONS</h5>
+        <div class="brand-imgs">
+            <img src="image/adobe_logo.png" alt="adobe_logo">
+            <img src="/image/wildcard_logo.png" alt="wildcard_logo">
+            <img src="/image/target_logo.png" alt="target_logo">
+            <img src="/image/grafana_logo.png" alt="grafana_logo">
+            <img src="/image/spotify_logo.png" alt="spotify_logo">
+        </div>
+
+    </section>
+
+    <!--Demo-->
+
+    <section class="demo">
+        <div class="container">
+            <div class="row w-100">
+                <div class="demo-text rounded  d-flex justify-content-between">
+                    <p>See live demos of ranked-choice elections, contests, and polls using RankedVote!</p>
+                    <div class=" ">
+                        <button type="button" class="btn demo-btn  rounded-pill px-4">VIEW DEMOS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Key Features-->
+    <section class="mt-5">
+        <p class="text-center fw-smaller"> KEY FEATURES</p>
+        <h2 class="text-center fw-bolder mb-5">The best way to use ranked choice voting online.</h2>
+        <div class="container-fluid d-flex flex-wrap justify-content-center">
+            <div class="card mb-4 mx-auto" style="width: 18rem;">
+                <div class="card-body text-center">
+                    <img src="/image/icon1.jpg" class="icon" alt="">
+                    <h5 class="card-title mb-2 text-body-secondary">Embed on Your Site</h5>
+                    <p class="card-text">Seamlessly integrate ranked choice contests on your page.</p>
+                </div>
+            </div>
+            <div class="card mb-4 mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <span class="d-flex justify-content-center ">
+
+                        <img src="/image/icon2.jpg" class="icon" alt="">
+                    </span>
+                    <h5 class="card-title  mb-2 text-body-secondary text-center">Unlimited Candidates</h5>
+                    <p class="card-text text-center">Voters can choose from a broad array of choices in each contest.
+                    </p>
+
+                </div>
+            </div>
+            <div class="card mb-4 mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <span class="d-flex justify-content-center ">
+
+                        <img src="/image/icon3.jpg" class="icon" alt="">
+                    </span>
+                    <h5 class="card-title  mb-2 text-body-secondary text-center">Unlimited Voters</h5>
+                    <p class="card-text text-center">Reach your voters. Even if there's 100,000 of them.</p>
+
+                </div>
+            </div>
+            <div class="card mb-4 mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <span class="d-flex justify-content-center ">
+
+                        <img src="/image/icon4.jpg" class="icon" alt="">
+                    </span>
+                    <h5 class="card-title  mb-2 text-body-secondary text-center">Duplicate Detection</h5>
+                    <p class="card-text text-center">Filter out votes that may not be unique.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid d-flex flex-wrap justify-content-center">
+            <div class="card mb-4 mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <span class="d-flex justify-content-center ">
+                        <img src="./image/icon5.jpg" class="icon" alt="">
+                    </span>
+                    <h5 class="card-title  mb-2 text-body-secondary text-center">Private Results</h5>
+                    <p class="card-text text-center">Make sure the outcome isn't revealed until you want it to be.</p>
+
+                </div>
+            </div>
+            <div class="card mb-4 mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <span class="d-flex justify-content-center ">
+
+                        <img src="./image/icon6.jpg" class="icon" alt="">
+                    </span>
+                    <h5 class="card-title  mb-2 text-body-secondary text-center">Custom Call to Action</h5>
+                    <p class="card-text text-center">Send voters to any website after they vote.</p>
+
+                </div>
+            </div>
+            <div class="card mb-4 mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <span class="d-flex justify-content-center ">
+
+                        <img src="./image/icon7.jpg" class="icon" alt="">
+                    </span>
+                    <h5 class="card-title  mb-2 text-body-secondary text-center">Detailed Profiles</h5>
+                    <p class="card-text text-center">Flesh out choices with detailed descriptions and pictures.</p>
+                </div>
+            </div>
+            <div class="card mb-4 mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                    <span class="d-flex justify-content-center ">
+
+                        <img src="./image/icon8.jpg" class="icon" alt="">
+                    </span>
+                    <h5 class="card-title  mb-2 text-body-secondary text-center">Highly Accessible</h5>
+                    <p class="card-text text-center">Device friendly. Screen Reader friendly. Language friendly.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="./image/keyFeatureImg.jpg" class="keyFeatureImg">
+        </div>
+    </section>
+
+
+    <!--Stats-->
+    <section class="purple-stats">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center text-center statistics-container">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="stat">51,471</div>
+                    <div class="stat-label">Elections Created</div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="stat">1,260,285</div>
+                    <div class="stat-label">Voters</div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="stat">270,615</div>
+                    <div class="stat-label">Candidates Ranked</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Details Section -->
+    <section class="working">
+        <div class="heading">
+            <h5>HOW RANKED CHOICE VOTING WORKS</h5>
+            <h2>Voters rank once. Strongest support wins.</h2>
+        </div>
+        <div class="works">
+            <div class="work">
+                <div class="avatar-index">1</div>
+                <h5>Voters rank ballots</h5>
+                <p>Each voter selects their most preferred choices on the ballot. First, second, third, and so on.</p>
+                <p>In the first round, the top ranked choices are counted to determine if a choice received enough votes
+                    to win.</p>
+            </div>
+            <div class="work">
+                <div class="avatar-index">2</div>
+                <h5>Lowest vote getters are eliminated</h5>
+                <p>If no choice gets enough votes to win, the choice with the least votes is eliminated.</p>
+                <p>Those who voted for an eliminated choice have their vote redistributed to their next choice in the
+                    following round.</p>
+            </div>
+            <div class="work">
+                <div class="avatar-index">3</div>
+                <h5>Repeat until a winner is found</h5>
+                <p>In the next round, the redistributed votes are added to the remaining choices' totals.</p>
+                <p>The elimination and redistribution process repeats automatically until a choice receives enough votes
+                    to win.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Corousel Section -->
+    <section class="corousell">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container text-center corousell-data">
+                        <h2>"By allowing users to test out NYC's grid-style ballot before heading to the polls,
+                            RankedVote offers voters a dynamic and engaging education in the Do's and Don'ts of RCV.
+                            <br> <br>
+
+                            The City of New York is a proud partner of RankedVote.”</h3>
+                            <img src="./image/demo-avatar.jpeg" alt="Demo Avatar">
+                            <h5>LAURA WOOD</h5>
+                            <p>NEW YORK CITY'S CHIEF DEMOCRACY OFFICER</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container text-center corousell-data py-5">
+                        <h2>"Our community contest received tens of thousands of votes in a matter of days. No problems.
+                            Any questions we had were promptly answered. <br> <br>
+
+                            RankedVote handled the scale easily and with all the pro/premium features, there really is
+                            no other competitor."</h3>
+                            <img src="./image/user2.png" alt="Demo Avatar">
+                            <h5>JAT KARUNAKARAN</h3>
+                                <p>SENIOR PRODUCT MANAGER, STUDIO WILDCARD</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container text-center corousell-data py-5">
+                        <h2>"If your organization has any interest in RCV education, be sure to include RankedVote in
+                            your toolkit."</h3>
+                            <img src="./image/user1.png" alt="Demo Avatar">
+                            <h5>AHMED BUTT</h3>
+                                <p>CIVIC ENGAGEMENT COORDINATOR, ASIAN AMERICAN FEDERATION</p>
+
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+    </section>
+    <!-- Results Section -->
+    <section class="results">
+        <div class="heading">
+            <h5>WHY RANKED CHOICE VOTING WORKS</h5>
+            <h2>Better decisions, faster.</h2>
+        </div>
+        <div class="result">
+            <div class="left">
+                <p>Any time you're making a decision with more than two choices, ranked choice voting is the right tool
+                    for the job. It uncovers your audience's preferences with greater accuracy and fidelity than
+                    traditional voting methods. <span class="create-poll"> Create a poll</span> to see how.</p>
+                <h5>KEY ADVANTAGES OF RANKED CHOICE VOTING</h5>
+                <ul>
+                    <li>Determines the choices with the strongest support</li>
+                    <li>Eliminates the need for multiple decision rounds</li>
+                    <li>Reduces vote gaming</li>
+                </ul>
+
+            </div>
+            <div class="right">
+                <img src="./image/final-result.svg" alt="Result">
+            </div>
+        </div>
+    </section>
+    <!-- Poll Section -->
+    <section class="poll container-fluid">
+        <div class="heading">
+            <h5>GET STARTED IN MINUTES...</h5>
+            <h2>Poll your voters now</h2>
+        </div>
+        <button>Get Started</button>
+    </section>
+    <!-- Footer -->
+    <footer class="footer d-flex justify-content-around">
+        <div class="title">
+            <img class="w-25 mb-4 mt-5" src="./image/logo.jpg" alt="RANKEDVOTE">
+            <p class="text-dark fs-6">© 2024 RankedVote, LLC. All rights reserved.</p>
+            <span class="d-flex ">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-twitter me-3" viewBox="0 0 16 16">
+                    <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+        </div>
+        <div class="footer-links">
+            <div class="app">
+                <h5>App</h5>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>Demo</p>
+                <p>Extension</p>
+                <p>Sign Up</p>
+            </div>
+            <div class="solutions">
+                <h5>Solutions</h5>
+                <p>Run Contests</p>
+                <p>Make Decisions</p>
+                <p>Educate Voters</p>
+                <p>Team Collaboration</p>
+                <p>Bulk Programs</p>
+                <p>Success Stories</p>
+            </div>
+            <div class="guides">
+                <h5>Guides</h5>
+                <p>Using RankedVote</p>
+                <p>Understanding RCV</p>
+                <p>Applying RCV</p>
+                <p>2024 Elections</p>
+                <p>FAQ</p>
+            </div>
+            <div class="company">
+                <h5>Company</h5>
+                <p>About</p>
+                <p>Contact</p>
+                <p>Press</p>
+                <p>Terms</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--JavaScript-->
+    <!---->
+
+    <!-- Bootstrap JS -->
+</body>
+
+</html>
